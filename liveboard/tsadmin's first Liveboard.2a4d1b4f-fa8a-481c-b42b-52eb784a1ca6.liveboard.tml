@@ -1,0 +1,43 @@
+guid: 2a4d1b4f-fa8a-481c-b42b-52eb784a1ca6
+liveboard:
+  name: tsadmin's first Liveboard
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Sales by Storename
+      tables:
+      - id: model
+        name: model
+        fqn: ff6d370f-d784-455e-a62e-2815f42d8ba8
+      search_query: "[Sales] [Storename]"
+      answer_columns:
+      - name: Storename
+      - name: Total Sales
+      table:
+        table_columns:
+        - column_id: Storename
+          show_headline: false
+        - column_id: Total Sales
+          show_headline: false
+        ordered_column_ids:
+        - Storename
+        - Total Sales
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: COLUMN
+        chart_columns:
+        - column_id: Storename
+        - column_id: Total Sales
+        axis_configs:
+        - x:
+          - Storename
+          "y":
+          - Total Sales
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Storename\",\"columnProperty\": {}},{\"columnId\": \"Total Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"b039e7f6-a09d-4115-9180-ff46f96d5863\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Sales\"],\"isOpposite\": false}},{\"id\": \"677ae76e-522a-4218-aafa-295e0a4f2f2b\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Storename\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Sales\",\"color\": \"#48D1E0\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 2ffed703-e955-4a66-b45b-343c54cc81be
+  layout:
+    tiles:
+    - visualization_id: Viz_1
