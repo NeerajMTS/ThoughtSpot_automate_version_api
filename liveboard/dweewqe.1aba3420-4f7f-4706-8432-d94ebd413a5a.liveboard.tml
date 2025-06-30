@@ -1,0 +1,50 @@
+guid: 1aba3420-4f7f-4706-8432-d94ebd413a5a
+liveboard:
+  name: dweewqe
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Sales by Storename
+      tables:
+      - id: model
+        name: model
+        fqn: ff6d370f-d784-455e-a62e-2815f42d8ba8
+      search_query: "[Sales] [Storename] [Salesid]"
+      answer_columns:
+      - name: Storename
+      - name: Total Sales
+      - name: Total Salesid
+      table:
+        table_columns:
+        - column_id: Storename
+          show_headline: false
+        - column_id: Total Sales
+          show_headline: false
+        - column_id: Total Salesid
+          show_headline: false
+        ordered_column_ids:
+        - Storename
+        - Total Sales
+        - Total Salesid
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: SCATTER
+        chart_columns:
+        - column_id: Storename
+        - column_id: Total Sales
+        - column_id: Total Salesid
+        axis_configs:
+        - x:
+          - Total Sales
+          "y":
+          - Total Salesid
+          category:
+          - Storename
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"responsiveLayoutPreference\": \"AUTO_ON\",\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Storename\",\"columnProperty\": {}},{\"columnId\": \"Total Sales\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}},{\"columnId\": \"Total Salesid\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"bef6d323-3aaa-488e-80c4-fe92ff7a862e\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Salesid\"],\"isOpposite\": false}},{\"id\": \"82fabdbf-b055-4763-b28b-c12a03520bbd\",\"properties\": {\"axisType\": \"X\",\"linkedColumns\": [\"Total Sales\"]}}],\"systemSeriesColors\": [{\"serieName\": \"Total Sales\",\"color\": \"#48D1E0\"},{\"serieName\": \"Total Salesid\",\"color\": \"#FF8142\"}]}"
+      display_mode: CHART_MODE
+    viz_guid: 52c668e0-3fd1-4c41-b44a-645c4835cd45
+  layout:
+    tiles:
+    - visualization_id: Viz_1
